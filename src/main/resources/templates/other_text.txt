@@ -1,0 +1,9 @@
+<nav th:replace="layouts :: navbar"></nav>
+
+th:object="${project}"
+
+ th:field="${project.stage}"
+
+  th:field="${project.description}
+
+  th:field="*{name}"
